@@ -1,0 +1,572 @@
+/* colors */
+/* white #ebecf0 */
+/* black #202022 */
+
+@media only screen and (max-width: 900px) {
+    /* NAVBAR */
+    .navbar-main-container {
+        background: rgba(247, 249, 252, 0.749);
+        backdrop-filter: blur(2px);
+        -webkit-backdrop-filter: blur(2px);
+        width: 100%;
+        height: 70px;
+        display: flex;
+        justify-content: space-around;
+        position: fixed;
+        top: 0;
+    }
+    
+    .responsive-invitation {
+        visibility: hidden;
+    }
+    
+    .navbar-main-container a {
+        background: rgba(247, 249, 252, 0);
+        backdrop-filter: blur(0px);
+        -webkit-backdrop-filter: blur(0px);
+        color: #202022;
+        width: 33%;
+        height: 100%;
+        border: none;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .navbar-main-container a button {
+        border: none;
+        background: rgba(247, 249, 252, 0);
+        backdrop-filter: blur(0px);
+        -webkit-backdrop-filter: blur(0px);
+        height: 100%;
+        border: none;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    /* BODY */
+    .body-main-container {
+        width: 100%;
+        background-color: #fff;
+    }
+    
+    /* CARD */
+    .card-main-container {
+        margin-top: 70px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .card-main-container h1 {
+        color: #202022;
+        margin: 20px 0px 5px 0px;
+        font-weight: 700;
+        font-size: 25px;
+    }
+    
+    .card-main-container h4 {
+        color: #202022;
+        margin: 0px;
+        font-weight: 350;
+        font-size: 15px;
+    }
+    
+    .picture-container {
+        background-image: url('../public/foto-perfil.jpeg');
+        background-size: 100%;
+        width: 200px;
+        height: 250px;
+        border-radius: 25px;
+        box-shadow: 25px 25px 50px #adaeb0,
+            -25px -25px 50px #ffffff;
+    }
+    
+    /* ABOUT */
+    .about-main-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: 50px 0px 50px 0px;
+    }
+    
+    .about-container {
+        width: 80%;
+        min-height: 100px;
+        border-radius: 50px;
+        background: linear-gradient(145deg, #dee0e3, #ffffff);
+        box-shadow: 25px 25px 50px #adaeb0,
+            -25px -25px 50px #ffffff;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .about-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+    
+    .about-info h1 {
+        margin: 20px 0px 0px 0px;
+        font-size: 600;
+    }
+    
+    .about-info p {
+        margin: 10px 0px 40px 0px;
+    }
+    
+    
+    /* FOOTER */
+    
+    .footer-main-container {
+        background-color: #202022;
+        color: #f7f9fc;
+        width: 100%;
+        height: 750px;
+    }
+    
+    
+    .home-div {
+        width: 350px;
+        height: 250px;
+    }
+    
+    .home {
+        background-image: url(/public/Colegiales.webp);
+        width: 100%;
+        height: 100%;
+    }
+    
+    .information {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: -10px;
+    }
+    
+    .information h1 {
+        font-weight: 700;
+        font-size: 25px;
+    }
+    
+    .information h4,
+    a {
+        margin: 0;
+        color: #f7f9fc;
+        text-decoration: none;
+        font-weight: 350;
+        font-size: 15px;
+    }
+    
+    /* SKILLS */
+    
+    .skills-main-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 50px 0px 50px 0px;
+    }
+    
+    .skills-main-container span {
+        margin: 0px;
+        color: #999999;
+        display: inline-block;
+        -webkit-transform: skewX(-20deg);
+        -moz-transform: skewX(-20deg);
+        -ms-transform: skewX(-20deg);
+        -o-transform: skewX(-20deg);
+        transform: skewX(-20deg);
+    }
+    
+    .frontend-main-container,
+    .backend-container,
+    .ux-ui-container {
+        width: 80%;
+        background: #f7f9fc;
+        box-shadow: 25px 25px 50px #adaeb0,
+            -25px -25px 50px #ffffff;
+        color: #202022;
+        margin: 25px 0px 0px 0px;
+        text-align: start;
+    }
+    
+    .title-container-skills {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+    }
+    
+    .stars-container {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .StarsNumber {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .frontend-main-container h1 {
+        margin-left: 15px;
+        font-size: 20px;
+    }
+    
+    .backend-container h1 {
+        margin-left: 15px;
+        font-size: 20px;
+    }
+    
+    .ux-ui-container h1 {
+        margin-left: 15px;
+        font-size: 20px;
+    }
+    
+    .stars-container {
+        margin-right: 10px;
+    }
+    
+    /* SKILLS STATE */
+    
+    .contenedor-principal-modal {
+        background: #f7f9fc;
+        box-shadow: 25px 25px 50px #adaeb0,
+            -25px -25px 50px #ffffff;
+        color: #202022;
+        width: 80%;
+        min-height: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .contenedor-principal-modal h1 {
+        font-size: 20px;
+        font-weight: 400;
+        margin: 0px 0px 15px 25px;
+    }
+    
+    /* React Icons */
+    
+    .AiOutlineArrowLeft,
+    .AiOutlineArrowRight {
+        color: #202022;
+        width: 30px;
+        height: 30px;
+    }
+    
+    .BsArrowDownUp {
+        color: #f7f9fc;
+        width: 30px;
+        height: 30px;
+        margin-left: 15px;
+    }
+    
+    .AiFillGithub,
+    .AiFillInstagram,
+    .AiFillMail,
+    .AiOutlineWhatsApp {
+        color: #f7f9fc;
+        width: 30px;
+        height: 30px;
+        margin-top: 20px;
+    }
+    
+    .AiFillStar,
+    .AiOutlineStar {
+        color: #202022;
+        width: 20px;
+        height: 20px;
+        margin-top: 5px;
+    
+    }
+}
+
+@media only screen and (min-width: 900px) {
+
+    /* NAVBAR */
+    .navbar-main-container {
+        visibility: hidden;
+    }
+    .responsive-invitation {
+        font-size:small;
+        color: #999999;
+        display: inline-block;
+        -webkit-transform: skewX(-20deg);
+        -moz-transform: skewX(-20deg);
+        -ms-transform: skewX(-20deg);
+        -o-transform: skewX(-20deg);
+        transform: skewX(-20deg);
+    }
+
+    /* BODY */
+    .body-main-container {
+        width: 100%;
+        background-color: #fff;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    /* CARD */
+    .card-main-container {
+        margin-top: 70px;
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .card-main-container h1 {
+        color: #202022;
+        margin: 20px 0px 5px 0px;
+        font-weight: 700;
+        font-size: 25px;
+    }
+    
+    .card-main-container h4 {
+        color: #202022;
+        margin: 0px;
+        font-weight: 350;
+        font-size: 15px;
+    }
+    
+    .picture-container {
+        background-image: url('../public/foto-perfil.jpeg');
+        background-size: 100%;
+        width: 300px;
+        height: 350px;
+        border-radius: 25px;
+        box-shadow:  10px 10px 30px #cccccc,
+        -10px -10px 30px #ffffff;
+    }
+    
+    /* ABOUT */
+    .about-main-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: 50px 0px 50px 0px;
+        width: 55%;
+        height: 100%;
+    }
+    
+    .about-container {
+        width: 75%;
+        min-height: 300px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-right: 60px;
+    }
+    
+    .about-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+    
+    .about-info h1 {
+        margin: 20px 0px 20px 0px;
+        font-size: 600;
+    }
+    
+    .about-info p {
+        margin: 10px 0px 40px 0px;
+    }
+    
+    
+    /* FOOTER */
+    
+    .footer-main-container {
+        background-color: #202022;
+        color: #f7f9fc;
+        width: 100%;
+        height: 750px;
+    }
+    
+    
+    .home-div {
+        width: 350px;
+        height: 250px;
+    }
+    
+    .home {
+        background-image: url(/public/Colegiales.webp);
+        width: 100%;
+        height: 100%;
+    }
+    
+    .information {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: -10px;
+    }
+    
+    .information h1 {
+        font-weight: 700;
+        font-size: 25px;
+    }
+    
+    .information h4,
+    a {
+        margin: 0;
+        color: #f7f9fc;
+        text-decoration: none;
+        font-weight: 350;
+        font-size: 15px;
+    }
+    
+    /* SKILLS */
+    
+    .skills-main-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 50px 0px 50px 0px;
+        width: 100%;
+    }
+    
+    .skills-main-container span {
+        margin: 0px;
+        color: #999999;
+        display: inline-block;
+        -webkit-transform: skewX(-20deg);
+        -moz-transform: skewX(-20deg);
+        -ms-transform: skewX(-20deg);
+        -o-transform: skewX(-20deg);
+        transform: skewX(-20deg);
+    }
+    
+    .frontend-main-container,
+    .backend-container,
+    .ux-ui-container {
+        width: 80%;
+        background: #f7f9fc;
+        box-shadow: 25px 25px 50px #adaeb0,
+            -25px -25px 50px #ffffff;
+        color: #202022;
+        margin: 25px 0px 0px 0px;
+        text-align: start;
+    }
+    
+    .title-container-skills {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+    }
+    .title-container-skills p{
+        margin: 18px 0px 0px 15px;
+        color: #999999;
+        display: inline-block;
+        -webkit-transform: skewX(-20deg);
+        -moz-transform: skewX(-20deg);
+        -ms-transform: skewX(-20deg);
+        -o-transform: skewX(-20deg);
+        transform: skewX(-20deg);
+    }
+    .title-and-p {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .stars-container {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .StarsNumber {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .frontend-main-container h1 {
+        margin-left: 15px;
+        font-size: 20px;
+    }
+    
+    .backend-container h1 {
+        margin-left: 15px;
+        font-size: 20px;
+    }
+    
+    .ux-ui-container h1 {
+        margin-left: 15px;
+        font-size: 20px;
+    }
+    
+    .stars-container {
+        margin-right: 10px;
+    }
+    
+    /* SKILLS STATE */
+    
+    .contenedor-principal-modal {
+        background: #f7f9fc;
+        box-shadow: 25px 25px 50px #adaeb0,
+            -25px -25px 50px #ffffff;
+        color: #202022;
+        width: 80%;
+        min-height: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .contenedor-principal-modal h1 {
+        font-size: 20px;
+        font-weight: 400;
+        margin: 15px 0px 15px 25px;
+    }
+    
+    /* React Icons */
+    
+    .AiOutlineArrowLeft,
+    .AiOutlineArrowRight {
+        color: #202022;
+        width: 30px;
+        height: 30px;
+    }
+    
+    .BsArrowDownUp {
+        color: #f7f9fc;
+        width: 30px;
+        height: 30px;
+        margin-left: 15px;
+    }
+    
+    .AiFillGithub,
+    .AiFillInstagram,
+    .AiFillMail,
+    .AiOutlineWhatsApp {
+        color: #f7f9fc;
+        width: 30px;
+        height: 30px;
+        margin-top: 20px;
+    }
+    
+    .AiFillStar,
+    .AiOutlineStar {
+        color: #202022;
+        width: 20px;
+        height: 20px;
+        margin-top: 5px;
+    
+    }
+}
